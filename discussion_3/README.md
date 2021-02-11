@@ -163,7 +163,7 @@ string str;
 string flag;
 
 while (getline(input_file, str)) {
-    sstream ss(str);
+    stringstream ss(str);
     ss >> flag;
     output_file << str << endl;
 }
